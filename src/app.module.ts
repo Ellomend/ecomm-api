@@ -27,6 +27,7 @@ import { QuestionModule } from './questions/questions.module';
 import { WishlistsModule } from './wishlists/wishlists.module';
 import { ReportsModule } from './reports/reports.module';
 import { FeedbackModule } from './feedbacks/feedbacks.module';
+import { AppController } from './app.controller';
 @Module({
   imports: [
     UsersModule,
@@ -58,7 +59,7 @@ import { FeedbackModule } from './feedbacks/feedbacks.module';
     ReportsModule,
     FeedbackModule,
   ],
-  controllers: [],
+  controllers: [AppController],
   providers: [],
 })
 export class AppModule {}
