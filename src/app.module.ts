@@ -28,6 +28,7 @@ import { WishlistsModule } from './wishlists/wishlists.module';
 import { ReportsModule } from './reports/reports.module';
 import { FeedbackModule } from './feedbacks/feedbacks.module';
 import { AppController } from './app.controller';
+import { AppService } from "./app.service";
 @Module({
   imports: [
     UsersModule,
@@ -60,6 +61,6 @@ import { AppController } from './app.controller';
     FeedbackModule,
   ],
   controllers: [AppController],
-  providers: [],
+  providers: [AppService],
 })
 export class AppModule {}
