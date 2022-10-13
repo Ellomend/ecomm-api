@@ -1,4 +1,6 @@
-****# Ecomm-api
+# WOrk in progress
+
+### Ecomm-api
 
 Ecomm-api is a backend API for a e-marketplace.
 
